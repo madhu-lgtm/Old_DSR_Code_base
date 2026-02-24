@@ -110,12 +110,12 @@ CRGB leds[NUM_LEDS];
 
 byte n1_id=1;     //**********  NEED TO CHECK *****************
 byte n2_id=2;
-// byte n3_id=3;
-// byte n4_id=4;
-// byte n5_id=5; 
-// byte n6_id=6;
-// byte n7_id=7;
-// byte n8_id=8;
+byte n3_id=3;
+byte n4_id=4;
+byte n5_id=5; 
+byte n6_id=6;
+byte n7_id=7;
+byte n8_id=8;
 
 int INP_CONTROL_MODE=260;// 257-> 260
 int PP_gain=32;//32
@@ -149,38 +149,38 @@ double FBSLL;
 double FBSUL;
 double FBSLL2;
 double FBSUL2;
-// double FBSLL3;
-// double FBSUL3;
-// double FBSLL4;
-// double FBSUL4;
-// double FBSLL5;
-// double FBSUL5;
-// double FBSLL6;
-// double FBSUL6;
-// double FBSLL7;
-// double FBSUL7;
-// double FBSLL8;
-// double FBSUL8;
+double FBSLL3;
+double FBSUL3;
+double FBSLL4;
+double FBSUL4;
+double FBSLL5;
+double FBSUL5;
+double FBSLL6;
+double FBSUL6;
+double FBSLL7;
+double FBSUL7;
+double FBSLL8;
+double FBSUL8;
 
 
 double GR = 0.0103; // 66RPM = 0.0111 ;  60RPM = 0.0103 
 double CurrentRPM;
 double CurrentRPM2;
-// double CurrentRPM3;
-// double CurrentRPM4;
-// double CurrentRPM5;
-// double CurrentRPM6;
-// double CurrentRPM7;
-// double CurrentRPM8;
+double CurrentRPM3;
+double CurrentRPM4;
+double CurrentRPM5;
+double CurrentRPM6;
+double CurrentRPM7;
+double CurrentRPM8;
 
 int BlockageCounter = 0;
 int BlockageCounter2 = 0;
-// int BlockageCounter3 = 0;
-// int BlockageCounter4 = 0;
-// int BlockageCounter5 = 0;
-// int BlockageCounter6 = 0;
-// int BlockageCounter7 = 0;
-// int BlockageCounter8 = 0;
+int BlockageCounter3 = 0;
+int BlockageCounter4 = 0;
+int BlockageCounter5 = 0;
+int BlockageCounter6 = 0;
+int BlockageCounter7 = 0;
+int BlockageCounter8 = 0;
 
 
 int BlockMaxLimit = 2;
