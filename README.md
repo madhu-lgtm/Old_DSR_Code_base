@@ -10,5 +10,15 @@ For Commplete Data Check this File "66RPM Motor Fine Grain Calibration.pdf"
 For Commplete Data Check this File "GearBox And Motor Selection.pdf"
 <img width="1919" height="589" alt="image" src="https://github.com/user-attachments/assets/a1b53b1c-2652-43e0-970e-b1b161fc8cb1" />
 
+## Software Toggle Switch
+For Commplete Data Check this File "Software Toggle Switch.pdf"
+<img width="1405" height="595" alt="image" src="https://github.com/user-attachments/assets/5643b72e-1aaa-4d53-88fe-b4c7621b0137" />
+
+## DSR Logging Events
+For Commplete Data Check this File "DSR Events To Log On Board.pdf"
+<img width="883" height="376" alt="image" src="https://github.com/user-attachments/assets/a8355c7b-9bbf-4b22-b090-7f06f7e69e78" />
+
+
+
 ### 2 SEEDER MODULE (Connect From Right) Code Given For Testing On :- 24-Feb-2026
 - Use "Rhino_003_7_008_5_014_16_1_10_WithToggleSelect_NoLog_60Rpm_red" 
