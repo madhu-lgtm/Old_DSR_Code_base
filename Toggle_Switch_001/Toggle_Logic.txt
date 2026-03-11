@@ -1,0 +1,47 @@
+/*
+External PullDown Resistor
+
+              (Dx) o/p = 0     Connect to Arduino Gnd 
+                |                |  if connected to 
+   ______/ _____|____R10K________|  external power supply
+  |                              |
+  |                              |
+  |                              |
+  |_________ + 5V -______________|
+   Arduino Power/ External Power
+
+*/
+
+
+int buttonPin = 11;
+int currBtnState ; 
+int prevBtnState ;  
+
+int toggleState = 0;  //step 0 
+
+void buttonControlPullDown()
+{
+  currBtnState = digitalRead(buttonPin); // step 1
+  if(prevBtnState == 0 && currBtnState == 1) // step 2 
+  {
+    toggleState = 1 - toggleState; // step 2.1
+    digitalWrite(LED_BUILTIN,toggleState); 
+  }
+  prevBtnState = currBtnState; // step 3
+  //delay(50); // step 4
+}
+
+void setup()
+{
+  pinMode(buttonPin,INPUT);// remove comments if using extenal resistots (external pullup or external pulldown)
+  pinMode(LED_BUILTIN,OUTPUT);
+  currBtnState = 0;
+  prevBtnState = 0;
+  Serial.begin(9600);
+
+}
+
+void loop()
+{
+  buttonControlPullDown();
+}
