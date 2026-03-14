@@ -1,3 +1,11 @@
+# Seeder Module Codes (1 to 8) 
+
+### 2 SEEDER MODULE (Connect From Right) Code Given For Testing On :- 24-Feb-2026
+- Use "Rhino_003_7_008_5_014_16_1_10_WithToggleSelect_NoLog_60Rpm_red"
+### 3 SEEDER MODULE (Connect From Right) Code Given For Testing On :- 14-Mar-2026
+- Use "Rhino_003_7_008_5_014_16_1_11_WithToggleSelect_NoLog_60Rpm_red"
+
+
 ## 60 RPM Motor Calibration data
 For Commplete Data Check this File "60RPM Motor Fine Grain Calibration.pdf"
 <img width="1859" height="628" alt="image" src="https://github.com/user-attachments/assets/3a24d7d5-51f1-4442-ad5a-2cb54f5fb88c" />
@@ -18,5 +26,4 @@ For Commplete Data Check this File "Software Toggle Switch.pdf"
 For Commplete Data Check this File "DSR Events To Log On Board.pdf"
 <img width="883" height="376" alt="image" src="https://github.com/user-attachments/assets/a8355c7b-9bbf-4b22-b090-7f06f7e69e78" />
 
-### 2 SEEDER MODULE (Connect From Right) Code Given For Testing On :- 24-Feb-2026
-- Use "Rhino_003_7_008_5_014_16_1_10_WithToggleSelect_NoLog_60Rpm_red" 
+
